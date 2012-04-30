@@ -1,0 +1,304 @@
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 53.398
+Committed Trasaction Count: 29951
+Committed Trasaction Per Second: 560
+
+One Test Result
+Run Time: 48.633
+Committed Trasaction Count: 29944
+Committed Trasaction Per Second: 615
+
+One Test Result
+Run Time: 45.199
+Committed Trasaction Count: 29945
+Committed Trasaction Per Second: 662
+
+Final Test Resut
+Committed Trasaction Per Second: 610
+
+---------------2PL-----------------
+Hotspot Hit Rate 70
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 58.237
+Committed Trasaction Count: 29927
+Committed Trasaction Per Second: 513
+
+One Test Result
+Run Time: 64.945
+Committed Trasaction Count: 29913
+Committed Trasaction Per Second: 460
+
+One Test Result
+Run Time: 62.264
+Committed Trasaction Count: 29938
+Committed Trasaction Per Second: 480
+
+Final Test Resut
+Committed Trasaction Per Second: 484
+
+---------------2PL-----------------
+Hotspot Hit Rate 80
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 82.732
+Committed Trasaction Count: 29920
+Committed Trasaction Per Second: 361
+
+One Test Result
+Run Time: 91.675
+Committed Trasaction Count: 29907
+Committed Trasaction Per Second: 326
+
+One Test Result
+Run Time: 95.058
+Committed Trasaction Count: 29902
+Committed Trasaction Per Second: 314
+
+Final Test Resut
+Committed Trasaction Per Second: 332
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 560.383
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 53
+
+One Test Result
+Run Time: 548.485
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 54
+
+One Test Result
+Run Time: 553.573
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 54
+
+Final Test Resut
+Committed Trasaction Per Second: 54
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 139.07
+Committed Trasaction Count: 29913
+Committed Trasaction Per Second: 215
+
+One Test Result
+Run Time: 128.308
+Committed Trasaction Count: 29920
+Committed Trasaction Per Second: 233
+
+One Test Result
+Run Time: 143.425
+Committed Trasaction Count: 29912
+Committed Trasaction Per Second: 208
+
+Final Test Resut
+Committed Trasaction Per Second: 218
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 84.794
+Committed Trasaction Count: 29953
+Committed Trasaction Per Second: 353
+
+One Test Result
+Run Time: 86.984
+Committed Trasaction Count: 29945
+Committed Trasaction Per Second: 344
+
+One Test Result
+Run Time: 97.766
+Committed Trasaction Count: 29955
+Committed Trasaction Per Second: 306
+
+Final Test Resut
+Committed Trasaction Per Second: 333
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 149.588
+Committed Trasaction Count: 29929
+Committed Trasaction Per Second: 200
+
+One Test Result
+Run Time: 139.206
+Committed Trasaction Count: 29942
+Committed Trasaction Per Second: 215
+
+One Test Result
+Run Time: 137.612
+Committed Trasaction Count: 29943
+Committed Trasaction Per Second: 217
+
+Final Test Resut
+Committed Trasaction Per Second: 210
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 547.982
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 54
+
+One Test Result
+Run Time: 536.235
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 55
+
+One Test Result
+Run Time: 538.395
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 55
+
+Final Test Resut
+Committed Trasaction Per Second: 55
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 111.788
+Committed Trasaction Count: 29920
+Committed Trasaction Per Second: 267
+
+One Test Result
+Run Time: 119.688
+Committed Trasaction Count: 29935
+Committed Trasaction Per Second: 250
+
+One Test Result
+Run Time: 112.355
+Committed Trasaction Count: 29934
+Committed Trasaction Per Second: 266
+
+Final Test Resut
+Committed Trasaction Per Second: 261
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 51.741
+Committed Trasaction Count: 29961
+Committed Trasaction Per Second: 579
+
+One Test Result
+Run Time: 50.941
+Committed Trasaction Count: 29968
+Committed Trasaction Per Second: 588
+
+One Test Result
+Run Time: 57.211
+Committed Trasaction Count: 29954
+Committed Trasaction Per Second: 523
+
+Final Test Resut
+Committed Trasaction Per Second: 562
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 48.909
+Committed Trasaction Count: 29956
+Committed Trasaction Per Second: 612
+
+One Test Result
+Run Time: 44.808
+Committed Trasaction Count: 29964
+Committed Trasaction Per Second: 668
+
+One Test Result
+Run Time: 43.576
+Committed Trasaction Count: 29952
+Committed Trasaction Per Second: 687
+
+Final Test Resut
+Committed Trasaction Per Second: 654
+
+---------------2PL-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 540.773
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 55
+
+One Test Result
+Run Time: 542.731
+Committed Trasaction Count: 30000
+Committed Trasaction Per Second: 55
+

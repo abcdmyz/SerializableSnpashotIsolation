@@ -1,0 +1,503 @@
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 13.492
+Committed Trasaction Count: 29505
+FUW Abort Count: 493
+Committed Trasaction Per Second: 2186
+FUW Abort Per Second: 36
+
+One Test Result
+Run Time: 12.87
+Committed Trasaction Count: 29452
+FUW Abort Count: 543
+Committed Trasaction Per Second: 2288
+FUW Abort Per Second: 42
+
+One Test Result
+Run Time: 12.785
+Committed Trasaction Count: 29462
+FUW Abort Count: 537
+Committed Trasaction Per Second: 2304
+FUW Abort Per Second: 42
+
+Final Test Resut
+Committed Trasaction Per Second: 2258
+FUW Abort Per Second: 40
+
+---------------SI-----------------
+Hotspot Hit Rate 70
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.523
+Committed Trasaction Count: 29388
+FUW Abort Count: 609
+Committed Trasaction Per Second: 2346
+FUW Abort Per Second: 48
+
+One Test Result
+Run Time: 12.455
+Committed Trasaction Count: 29397
+FUW Abort Count: 603
+Committed Trasaction Per Second: 2360
+FUW Abort Per Second: 48
+
+One Test Result
+Run Time: 12.416
+Committed Trasaction Count: 29402
+FUW Abort Count: 595
+Committed Trasaction Per Second: 2368
+FUW Abort Per Second: 47
+
+Final Test Resut
+Committed Trasaction Per Second: 2358
+FUW Abort Per Second: 48
+
+---------------SI-----------------
+Hotspot Hit Rate 80
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.326
+Committed Trasaction Count: 29224
+FUW Abort Count: 766
+Committed Trasaction Per Second: 2370
+FUW Abort Per Second: 62
+
+One Test Result
+Run Time: 13.033
+Committed Trasaction Count: 29192
+FUW Abort Count: 803
+Committed Trasaction Per Second: 2239
+FUW Abort Per Second: 61
+
+One Test Result
+Run Time: 12.879
+Committed Trasaction Count: 29217
+FUW Abort Count: 780
+Committed Trasaction Per Second: 2268
+FUW Abort Per Second: 60
+
+Final Test Resut
+Committed Trasaction Per Second: 2291
+FUW Abort Per Second: 61
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 30.863
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 972
+FUW Abort Per Second: 0
+
+One Test Result
+Run Time: 32.741
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 916
+FUW Abort Per Second: 0
+
+One Test Result
+Run Time: 31.942
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 939
+FUW Abort Per Second: 0
+
+Final Test Resut
+Committed Trasaction Per Second: 941
+FUW Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 12.459
+Committed Trasaction Count: 29709
+FUW Abort Count: 286
+Committed Trasaction Per Second: 2384
+FUW Abort Per Second: 22
+
+One Test Result
+Run Time: 12.59
+Committed Trasaction Count: 29718
+FUW Abort Count: 279
+Committed Trasaction Per Second: 2360
+FUW Abort Per Second: 22
+
+One Test Result
+Run Time: 12.599
+Committed Trasaction Count: 29735
+FUW Abort Count: 261
+Committed Trasaction Per Second: 2360
+FUW Abort Per Second: 20
+
+Final Test Resut
+Committed Trasaction Per Second: 2368
+FUW Abort Per Second: 21
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 12.693
+Committed Trasaction Count: 29283
+FUW Abort Count: 713
+Committed Trasaction Per Second: 2307
+FUW Abort Per Second: 56
+
+One Test Result
+Run Time: 12.789
+Committed Trasaction Count: 29298
+FUW Abort Count: 661
+Committed Trasaction Per Second: 2290
+FUW Abort Per Second: 51
+
+One Test Result
+Run Time: 13.042
+Committed Trasaction Count: 29311
+FUW Abort Count: 685
+Committed Trasaction Per Second: 2247
+FUW Abort Per Second: 52
+
+Final Test Resut
+Committed Trasaction Per Second: 2281
+FUW Abort Per Second: 53
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.596
+Committed Trasaction Count: 29221
+FUW Abort Count: 776
+Committed Trasaction Per Second: 2319
+FUW Abort Per Second: 61
+
+One Test Result
+Run Time: 12.683
+Committed Trasaction Count: 29150
+FUW Abort Count: 845
+Committed Trasaction Per Second: 2298
+FUW Abort Per Second: 66
+
+One Test Result
+Run Time: 12.718
+Committed Trasaction Count: 29271
+FUW Abort Count: 727
+Committed Trasaction Per Second: 2301
+FUW Abort Per Second: 57
+
+Final Test Resut
+Committed Trasaction Per Second: 2306
+FUW Abort Per Second: 61
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 32.59
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 920
+FUW Abort Per Second: 0
+
+One Test Result
+Run Time: 27.27
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 1100
+FUW Abort Per Second: 0
+
+One Test Result
+Run Time: 31.018
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 967
+FUW Abort Per Second: 0
+
+Final Test Resut
+Committed Trasaction Per Second: 990
+FUW Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 12.642
+Committed Trasaction Count: 29845
+FUW Abort Count: 148
+Committed Trasaction Per Second: 2360
+FUW Abort Per Second: 11
+
+One Test Result
+Run Time: 12.73
+Committed Trasaction Count: 29858
+FUW Abort Count: 128
+Committed Trasaction Per Second: 2345
+FUW Abort Per Second: 10
+
+One Test Result
+Run Time: 12.649
+Committed Trasaction Count: 29891
+FUW Abort Count: 106
+Committed Trasaction Per Second: 2363
+FUW Abort Per Second: 8
+
+Final Test Resut
+Committed Trasaction Per Second: 2356
+FUW Abort Per Second: 10
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 12.86
+Committed Trasaction Count: 29637
+FUW Abort Count: 362
+Committed Trasaction Per Second: 2304
+FUW Abort Per Second: 28
+
+One Test Result
+Run Time: 12.804
+Committed Trasaction Count: 29557
+FUW Abort Count: 438
+Committed Trasaction Per Second: 2308
+FUW Abort Per Second: 34
+
+One Test Result
+Run Time: 12.707
+Committed Trasaction Count: 29613
+FUW Abort Count: 384
+Committed Trasaction Per Second: 2330
+FUW Abort Per Second: 30
+
+Final Test Resut
+Committed Trasaction Per Second: 2314
+FUW Abort Per Second: 30
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.725
+Committed Trasaction Count: 29569
+FUW Abort Count: 425
+Committed Trasaction Per Second: 2323
+FUW Abort Per Second: 33
+
+One Test Result
+Run Time: 12.694
+Committed Trasaction Count: 29535
+FUW Abort Count: 462
+Committed Trasaction Per Second: 2326
+FUW Abort Per Second: 36
+
+One Test Result
+Run Time: 12.725
+Committed Trasaction Count: 29521
+FUW Abort Count: 476
+Committed Trasaction Per Second: 2319
+FUW Abort Per Second: 37
+
+Final Test Resut
+Committed Trasaction Per Second: 2323
+FUW Abort Per Second: 35
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 27.345
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 1097
+FUW Abort Per Second: 0
+
+One Test Result
+Run Time: 32.377
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 926
+FUW Abort Per Second: 0
+
+One Test Result
+Run Time: 30.342
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+Committed Trasaction Per Second: 988
+FUW Abort Per Second: 0
+
+Final Test Resut
+Committed Trasaction Per Second: 999
+FUW Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 12.606
+Committed Trasaction Count: 29936
+FUW Abort Count: 57
+Committed Trasaction Per Second: 2374
+FUW Abort Per Second: 4
+
+One Test Result
+Run Time: 12.278
+Committed Trasaction Count: 29935
+FUW Abort Count: 58
+Committed Trasaction Per Second: 2438
+FUW Abort Per Second: 4
+
+One Test Result
+Run Time: 12.464
+Committed Trasaction Count: 29909
+FUW Abort Count: 87
+Committed Trasaction Per Second: 2399
+FUW Abort Per Second: 6
+
+Final Test Resut
+Committed Trasaction Per Second: 2403
+FUW Abort Per Second: 5
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 12.624
+Committed Trasaction Count: 29799
+FUW Abort Count: 197
+Committed Trasaction Per Second: 2360
+FUW Abort Per Second: 15
+
+One Test Result
+Run Time: 12.858
+Committed Trasaction Count: 29802
+FUW Abort Count: 196
+Committed Trasaction Per Second: 2317
+FUW Abort Per Second: 15
+
+One Test Result
+Run Time: 13.07
+Committed Trasaction Count: 29794
+FUW Abort Count: 202
+Committed Trasaction Per Second: 2279
+FUW Abort Per Second: 15
+
+Final Test Resut
+Committed Trasaction Per Second: 2318
+FUW Abort Per Second: 15
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.931
+Committed Trasaction Count: 29710
+FUW Abort Count: 286
+Committed Trasaction Per Second: 2297
+FUW Abort Per Second: 22
+
+One Test Result
+Run Time: 12.716
+Committed Trasaction Count: 29766
+FUW Abort Count: 227
+Committed Trasaction Per Second: 2340
+FUW Abort Per Second: 17
+
+One Test Result
+Run Time: 12.825
+Committed Trasaction Count: 29748
+FUW Abort Count: 247
+Committed Trasaction Per Second: 2319
+FUW Abort Per Second: 19
+
+Final Test Resut
+Committed Trasaction Per Second: 2319
+FUW Abort Per Second: 19
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 1
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
