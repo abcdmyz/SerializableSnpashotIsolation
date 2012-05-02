@@ -5,6 +5,7 @@ import java.util.concurrent.CountDownLatch;
 import sysu.ssi.concurrentcontrol.twopl.TwoPLExecutor;
 import sysu.ssi.parameter.PerformanceParameter;
 import sysu.ssi.request.TwoPLRequest;
+import sysu.ssi.test.output.PSSITestOutput;
 import sysu.ssi.test.output.ParameterOutput;
 import sysu.ssi.test.output.TwoPLTestOutput;
 import sysu.ssi.test.parameter.ParameterGenerator;
@@ -150,6 +151,36 @@ public class TwoPLTestRun implements TestRun
 				twoplTestOutput.outputGroupResult(groupTestResult);
 			}
 		}
+	}
+	
+	public void SingleGroupMultiThreadSizeTestRun() throws InterruptedException
+	{
+		ParameterGenerator parameterGenerator = new ParameterGenerator();
+		TestParameter parameter = new TestParameter();
+		
+		OneTestResult oneTestResult = new OneTestResult();
+		TwoPLTestOutput twoPLTestOutput = new TwoPLTestOutput();
+		ParameterOutput parameterOutput = new ParameterOutput();
+		
+		for ( int threadsize=0; threadsize<PerformanceParameter.threadSizeCount; threadsize++ )
+		{
+			GroupTestResult groupTestResult = new GroupTestResult();
+			parameter = parameterGenerator.generateAlterThreadSizeParameter(threadsize);
+			
+			parameterOutput.outputTwoPL();
+			parameterOutput.output(parameter);
+		
+			for ( int runtimes=0; runtimes<PerformanceParameter.runTimes; runtimes++ )
+			{
+			
+				oneTestResult = twoPLRequestRun(parameter);	
+				groupTestResult.sumupTestResult(oneTestResult);
+				twoPLTestOutput.outputOneResult(oneTestResult);
+			}
+			
+			twoPLTestOutput.outputGroupResult(groupTestResult);
+		}
+		
 	}
 	
 }

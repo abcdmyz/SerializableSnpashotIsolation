@@ -20,8 +20,8 @@ public class SIRequest implements Request
 		{
 			SIRun siRun = new SIRun( transactionIDInitial, parameter, cdl );
 			
-			Thread twoplRunThread = new Thread(siRun);
-			twoplRunThread.start();
+			Thread siRunThread = new Thread(siRun);
+			siRunThread.start();
 			
 			transactionIDInitial += TransactionIDParameter.transactionIDGap;
 		}

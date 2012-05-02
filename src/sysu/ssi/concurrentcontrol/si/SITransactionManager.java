@@ -49,12 +49,6 @@ public class SITransactionManager
 		return null;
 	}
 	
-	public static void setTransactionState( int transactionID, String transactionState )
-	{
-		if ( transactionTable.get(transactionID) != null )
-			transactionTable.get(transactionID).setTransactionState(transactionState);
-	}
-	
 	public static long getTransactionStartTime( long tID )
 	{
 		return transactionTable.get(tID).getStartTime();

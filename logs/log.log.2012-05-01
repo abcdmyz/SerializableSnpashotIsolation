@@ -1,0 +1,1743 @@
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 13.701
+Committed Trasaction Count: 29463
+FUW Abort Count: 514
+PSSI Abort Count: 3
+Committed Trasaction Per Second: 2150
+FUW Abort Per Second: 37
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54871
+
+One Test Result
+Run Time: 12.805
+Committed Trasaction Count: 29402
+FUW Abort Count: 580
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2296
+FUW Abort Per Second: 45
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54399
+
+One Test Result
+Run Time: 12.272
+Committed Trasaction Count: 29528
+FUW Abort Count: 453
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2406
+FUW Abort Per Second: 36
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55018
+
+One Test Result
+Run Time: 12.186
+Committed Trasaction Count: 29488
+FUW Abort Count: 483
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2419
+FUW Abort Per Second: 39
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55078
+
+One Test Result
+Run Time: 12.312
+Committed Trasaction Count: 29462
+FUW Abort Count: 516
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2392
+FUW Abort Per Second: 41
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54621
+
+One Test Result
+Run Time: 12.231
+Committed Trasaction Count: 29538
+FUW Abort Count: 411
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2415
+FUW Abort Per Second: 33
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54990
+
+One Test Result
+Run Time: 12.244
+Committed Trasaction Count: 29573
+FUW Abort Count: 407
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2415
+FUW Abort Per Second: 33
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55007
+
+One Test Result
+Run Time: 12.262
+Committed Trasaction Count: 29586
+FUW Abort Count: 400
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2412
+FUW Abort Per Second: 32
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55102
+
+One Test Result
+Run Time: 12.092
+Committed Trasaction Count: 29508
+FUW Abort Count: 474
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2440
+FUW Abort Per Second: 39
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54717
+
+One Test Result
+Run Time: 12.099
+Committed Trasaction Count: 29506
+FUW Abort Count: 471
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2438
+FUW Abort Per Second: 38
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54928
+
+Final Test Resut
+Committed Trasaction Per Second: 2375
+FUW Abort Per Second: 37
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 70
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.246
+Committed Trasaction Count: 29425
+FUW Abort Count: 561
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2402
+FUW Abort Per Second: 45
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62568
+
+One Test Result
+Run Time: 12.146
+Committed Trasaction Count: 29317
+FUW Abort Count: 666
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2413
+FUW Abort Per Second: 54
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62254
+
+One Test Result
+Run Time: 12.035
+Committed Trasaction Count: 29414
+FUW Abort Count: 554
+PSSI Abort Count: 5
+Committed Trasaction Per Second: 2444
+FUW Abort Per Second: 46
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62544
+
+One Test Result
+Run Time: 12.09
+Committed Trasaction Count: 29311
+FUW Abort Count: 671
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2424
+FUW Abort Per Second: 55
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62246
+
+One Test Result
+Run Time: 12.299
+Committed Trasaction Count: 29333
+FUW Abort Count: 657
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2384
+FUW Abort Per Second: 53
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62387
+
+One Test Result
+Run Time: 11.89
+Committed Trasaction Count: 29328
+FUW Abort Count: 647
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2466
+FUW Abort Per Second: 54
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62382
+
+One Test Result
+Run Time: 12.12
+Committed Trasaction Count: 29338
+FUW Abort Count: 640
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2420
+FUW Abort Per Second: 52
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62613
+
+One Test Result
+Run Time: 12.03
+Committed Trasaction Count: 29357
+FUW Abort Count: 618
+PSSI Abort Count: 4
+Committed Trasaction Per Second: 2440
+FUW Abort Per Second: 51
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62300
+
+One Test Result
+Run Time: 12.212
+Committed Trasaction Count: 29401
+FUW Abort Count: 578
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2407
+FUW Abort Per Second: 47
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62962
+
+One Test Result
+Run Time: 12.154
+Committed Trasaction Count: 29351
+FUW Abort Count: 631
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2414
+FUW Abort Per Second: 51
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 62292
+
+Final Test Resut
+Committed Trasaction Per Second: 2421
+FUW Abort Per Second: 51
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 80
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.31
+Committed Trasaction Count: 29171
+FUW Abort Count: 813
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2369
+FUW Abort Per Second: 66
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70088
+
+One Test Result
+Run Time: 11.91
+Committed Trasaction Count: 29220
+FUW Abort Count: 769
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2453
+FUW Abort Per Second: 64
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70090
+
+One Test Result
+Run Time: 12.1
+Committed Trasaction Count: 29158
+FUW Abort Count: 823
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2409
+FUW Abort Per Second: 68
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 69947
+
+One Test Result
+Run Time: 12.036
+Committed Trasaction Count: 29229
+FUW Abort Count: 754
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2428
+FUW Abort Per Second: 62
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70200
+
+One Test Result
+Run Time: 12.153
+Committed Trasaction Count: 29129
+FUW Abort Count: 843
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2396
+FUW Abort Per Second: 69
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 69819
+
+One Test Result
+Run Time: 12.12
+Committed Trasaction Count: 29151
+FUW Abort Count: 817
+PSSI Abort Count: 5
+Committed Trasaction Per Second: 2405
+FUW Abort Per Second: 67
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70215
+
+One Test Result
+Run Time: 12.166
+Committed Trasaction Count: 29198
+FUW Abort Count: 785
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2399
+FUW Abort Per Second: 64
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70064
+
+One Test Result
+Run Time: 12.166
+Committed Trasaction Count: 29195
+FUW Abort Count: 779
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2399
+FUW Abort Per Second: 64
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70175
+
+One Test Result
+Run Time: 12.186
+Committed Trasaction Count: 29188
+FUW Abort Count: 796
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2395
+FUW Abort Per Second: 65
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70071
+
+One Test Result
+Run Time: 12.057
+Committed Trasaction Count: 29241
+FUW Abort Count: 746
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2425
+FUW Abort Per Second: 61
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 70201
+
+Final Test Resut
+Committed Trasaction Per Second: 2408
+FUW Abort Per Second: 65
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 100
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.012
+Committed Trasaction Count: 28864
+FUW Abort Count: 1097
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2402
+FUW Abort Per Second: 91
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 86102
+
+One Test Result
+Run Time: 12.05
+Committed Trasaction Count: 28807
+FUW Abort Count: 1175
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2390
+FUW Abort Per Second: 97
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 85893
+
+One Test Result
+Run Time: 11.928
+Committed Trasaction Count: 28783
+FUW Abort Count: 1199
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2413
+FUW Abort Per Second: 100
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 85893
+
+One Test Result
+Run Time: 12.008
+Committed Trasaction Count: 28860
+FUW Abort Count: 1123
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2403
+FUW Abort Per Second: 93
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 86129
+
+One Test Result
+Run Time: 12.159
+Committed Trasaction Count: 28854
+FUW Abort Count: 1123
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2373
+FUW Abort Per Second: 92
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 86137
+
+One Test Result
+Run Time: 12.1
+Committed Trasaction Count: 28904
+FUW Abort Count: 1076
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2388
+FUW Abort Per Second: 88
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 86211
+
+One Test Result
+Run Time: 11.973
+Committed Trasaction Count: 28871
+FUW Abort Count: 1108
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2411
+FUW Abort Per Second: 92
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 86196
+
+One Test Result
+Run Time: 12.076
+Committed Trasaction Count: 28799
+FUW Abort Count: 1184
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2384
+FUW Abort Per Second: 98
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 85853
+
+One Test Result
+Run Time: 12.016
+Committed Trasaction Count: 28840
+FUW Abort Count: 1142
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2400
+FUW Abort Per Second: 95
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 86061
+
+One Test Result
+Run Time: 11.975
+Committed Trasaction Count: 28738
+FUW Abort Count: 1237
+PSSI Abort Count: 3
+Committed Trasaction Per Second: 2399
+FUW Abort Per Second: 103
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 85759
+
+Final Test Resut
+Committed Trasaction Per Second: 2396
+FUW Abort Per Second: 95
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 29.441
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1018
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55892
+
+One Test Result
+Run Time: 29.75
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1008
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 56068
+
+One Test Result
+Run Time: 25.827
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1161
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 56151
+
+One Test Result
+Run Time: 29.899
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1003
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 56042
+
+One Test Result
+Run Time: 29.179
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1028
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 56083
+
+One Test Result
+Run Time: 26.037
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1152
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55971
+
+One Test Result
+Run Time: 29.0
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1034
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55884
+
+One Test Result
+Run Time: 29.818
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1006
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 56183
+
+One Test Result
+Run Time: 29.787
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1007
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55884
+
+One Test Result
+Run Time: 29.9
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1003
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55960
+
+Final Test Resut
+Committed Trasaction Per Second: 1039
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 12.429
+Committed Trasaction Count: 29720
+FUW Abort Count: 270
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2391
+FUW Abort Per Second: 21
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55199
+
+One Test Result
+Run Time: 12.385
+Committed Trasaction Count: 29691
+FUW Abort Count: 295
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2397
+FUW Abort Per Second: 23
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55248
+
+One Test Result
+Run Time: 12.143
+Committed Trasaction Count: 29689
+FUW Abort Count: 298
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2444
+FUW Abort Per Second: 24
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55400
+
+One Test Result
+Run Time: 12.559
+Committed Trasaction Count: 29741
+FUW Abort Count: 252
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2368
+FUW Abort Per Second: 20
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55546
+
+One Test Result
+Run Time: 12.264
+Committed Trasaction Count: 29679
+FUW Abort Count: 312
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2420
+FUW Abort Per Second: 25
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55260
+
+One Test Result
+Run Time: 12.423
+Committed Trasaction Count: 29706
+FUW Abort Count: 275
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2391
+FUW Abort Per Second: 22
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55309
+
+One Test Result
+Run Time: 12.43
+Committed Trasaction Count: 29690
+FUW Abort Count: 298
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2388
+FUW Abort Per Second: 23
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55205
+
+One Test Result
+Run Time: 12.427
+Committed Trasaction Count: 29709
+FUW Abort Count: 278
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2390
+FUW Abort Per Second: 22
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55410
+
+One Test Result
+Run Time: 12.36
+Committed Trasaction Count: 29692
+FUW Abort Count: 293
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2402
+FUW Abort Per Second: 23
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55094
+
+One Test Result
+Run Time: 12.529
+Committed Trasaction Count: 29742
+FUW Abort Count: 243
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2373
+FUW Abort Per Second: 19
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55410
+
+Final Test Resut
+Committed Trasaction Per Second: 2396
+FUW Abort Per Second: 22
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 12.245
+Committed Trasaction Count: 29183
+FUW Abort Count: 801
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2383
+FUW Abort Per Second: 65
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54098
+
+One Test Result
+Run Time: 12.347
+Committed Trasaction Count: 29238
+FUW Abort Count: 740
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2368
+FUW Abort Per Second: 59
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54506
+
+One Test Result
+Run Time: 12.248
+Committed Trasaction Count: 29166
+FUW Abort Count: 813
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2381
+FUW Abort Per Second: 66
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54580
+
+One Test Result
+Run Time: 12.205
+Committed Trasaction Count: 29286
+FUW Abort Count: 692
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2399
+FUW Abort Per Second: 56
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54775
+
+One Test Result
+Run Time: 12.379
+Committed Trasaction Count: 29119
+FUW Abort Count: 863
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2352
+FUW Abort Per Second: 69
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54468
+
+One Test Result
+Run Time: 12.397
+Committed Trasaction Count: 29198
+FUW Abort Count: 783
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2355
+FUW Abort Per Second: 63
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54480
+
+One Test Result
+Run Time: 12.595
+Committed Trasaction Count: 29225
+FUW Abort Count: 746
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2320
+FUW Abort Per Second: 59
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54362
+
+One Test Result
+Run Time: 12.737
+Committed Trasaction Count: 29314
+FUW Abort Count: 669
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2301
+FUW Abort Per Second: 52
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54521
+
+One Test Result
+Run Time: 12.581
+Committed Trasaction Count: 29295
+FUW Abort Count: 687
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2328
+FUW Abort Per Second: 54
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54483
+
+One Test Result
+Run Time: 12.213
+Committed Trasaction Count: 29226
+FUW Abort Count: 758
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2393
+FUW Abort Per Second: 62
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54359
+
+Final Test Resut
+Committed Trasaction Per Second: 2357
+FUW Abort Per Second: 60
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 100
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.483
+Committed Trasaction Count: 29036
+FUW Abort Count: 947
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2326
+FUW Abort Per Second: 75
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54087
+
+One Test Result
+Run Time: 12.67
+Committed Trasaction Count: 29193
+FUW Abort Count: 788
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2304
+FUW Abort Per Second: 62
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54545
+
+One Test Result
+Run Time: 12.482
+Committed Trasaction Count: 29070
+FUW Abort Count: 903
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2328
+FUW Abort Per Second: 72
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54110
+
+One Test Result
+Run Time: 12.273
+Committed Trasaction Count: 29123
+FUW Abort Count: 858
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2372
+FUW Abort Per Second: 69
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54274
+
+One Test Result
+Run Time: 12.393
+Committed Trasaction Count: 29107
+FUW Abort Count: 876
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2348
+FUW Abort Per Second: 70
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54352
+
+One Test Result
+Run Time: 12.603
+Committed Trasaction Count: 29105
+FUW Abort Count: 872
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2309
+FUW Abort Per Second: 69
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54353
+
+One Test Result
+Run Time: 12.448
+Committed Trasaction Count: 29197
+FUW Abort Count: 785
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2345
+FUW Abort Per Second: 63
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54477
+
+One Test Result
+Run Time: 12.469
+Committed Trasaction Count: 29149
+FUW Abort Count: 826
+PSSI Abort Count: 4
+Committed Trasaction Per Second: 2337
+FUW Abort Per Second: 66
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54300
+
+One Test Result
+Run Time: 12.604
+Committed Trasaction Count: 29002
+FUW Abort Count: 983
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2301
+FUW Abort Per Second: 77
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54135
+
+One Test Result
+Run Time: 13.097
+Committed Trasaction Count: 29087
+FUW Abort Count: 892
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2220
+FUW Abort Per Second: 68
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54342
+
+Final Test Resut
+Committed Trasaction Per Second: 2318
+FUW Abort Per Second: 69
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 29.604
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1013
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55715
+
+One Test Result
+Run Time: 29.377
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1021
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55781
+
+One Test Result
+Run Time: 29.569
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1014
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55508
+
+One Test Result
+Run Time: 29.358
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1021
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55971
+
+One Test Result
+Run Time: 25.106
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1194
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 56168
+
+One Test Result
+Run Time: 29.205
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1027
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55932
+
+One Test Result
+Run Time: 28.619
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1048
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55933
+
+One Test Result
+Run Time: 25.045
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1197
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55957
+
+One Test Result
+Run Time: 29.377
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1021
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55994
+
+One Test Result
+Run Time: 29.504
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1016
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55824
+
+Final Test Resut
+Committed Trasaction Per Second: 1053
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 11.97
+Committed Trasaction Count: 29817
+FUW Abort Count: 161
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2490
+FUW Abort Per Second: 13
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55296
+
+One Test Result
+Run Time: 11.919
+Committed Trasaction Count: 29822
+FUW Abort Count: 159
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2502
+FUW Abort Per Second: 13
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55335
+
+One Test Result
+Run Time: 11.752
+Committed Trasaction Count: 29840
+FUW Abort Count: 141
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2539
+FUW Abort Per Second: 11
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55792
+
+One Test Result
+Run Time: 12.007
+Committed Trasaction Count: 29839
+FUW Abort Count: 145
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2485
+FUW Abort Per Second: 12
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55421
+
+One Test Result
+Run Time: 11.803
+Committed Trasaction Count: 29855
+FUW Abort Count: 135
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2529
+FUW Abort Per Second: 11
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55597
+
+One Test Result
+Run Time: 11.929
+Committed Trasaction Count: 29856
+FUW Abort Count: 136
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2502
+FUW Abort Per Second: 11
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55724
+
+One Test Result
+Run Time: 11.948
+Committed Trasaction Count: 29836
+FUW Abort Count: 151
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2497
+FUW Abort Per Second: 12
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55540
+
+One Test Result
+Run Time: 12.038
+Committed Trasaction Count: 29870
+FUW Abort Count: 118
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2481
+FUW Abort Per Second: 9
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55480
+
+One Test Result
+Run Time: 11.895
+Committed Trasaction Count: 29831
+FUW Abort Count: 148
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2507
+FUW Abort Per Second: 12
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55772
+
+One Test Result
+Run Time: 12.107
+Committed Trasaction Count: 29826
+FUW Abort Count: 161
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2463
+FUW Abort Per Second: 13
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55550
+
+Final Test Resut
+Committed Trasaction Per Second: 2499
+FUW Abort Per Second: 12
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 12.016
+Committed Trasaction Count: 29592
+FUW Abort Count: 388
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2462
+FUW Abort Per Second: 32
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55067
+
+One Test Result
+Run Time: 12.114
+Committed Trasaction Count: 29543
+FUW Abort Count: 431
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2438
+FUW Abort Per Second: 35
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54831
+
+One Test Result
+Run Time: 12.053
+Committed Trasaction Count: 29566
+FUW Abort Count: 416
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2452
+FUW Abort Per Second: 34
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55253
+
+One Test Result
+Run Time: 12.01
+Committed Trasaction Count: 29581
+FUW Abort Count: 395
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2463
+FUW Abort Per Second: 32
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55015
+
+One Test Result
+Run Time: 12.153
+Committed Trasaction Count: 29583
+FUW Abort Count: 395
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2434
+FUW Abort Per Second: 32
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55386
+
+One Test Result
+Run Time: 12.124
+Committed Trasaction Count: 29534
+FUW Abort Count: 445
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2435
+FUW Abort Per Second: 36
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55120
+
+One Test Result
+Run Time: 12.097
+Committed Trasaction Count: 29634
+FUW Abort Count: 353
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2449
+FUW Abort Per Second: 29
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55129
+
+One Test Result
+Run Time: 12.535
+Committed Trasaction Count: 29575
+FUW Abort Count: 413
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2359
+FUW Abort Per Second: 32
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54936
+
+One Test Result
+Run Time: 11.993
+Committed Trasaction Count: 29645
+FUW Abort Count: 340
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2471
+FUW Abort Per Second: 28
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55215
+
+One Test Result
+Run Time: 12.072
+Committed Trasaction Count: 29588
+FUW Abort Count: 391
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2450
+FUW Abort Per Second: 32
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55046
+
+Final Test Resut
+Committed Trasaction Per Second: 2441
+FUW Abort Per Second: 32
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 200
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.146
+Committed Trasaction Count: 29573
+FUW Abort Count: 407
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2434
+FUW Abort Per Second: 33
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55245
+
+One Test Result
+Run Time: 12.181
+Committed Trasaction Count: 29534
+FUW Abort Count: 446
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2424
+FUW Abort Per Second: 36
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55203
+
+One Test Result
+Run Time: 12.168
+Committed Trasaction Count: 29538
+FUW Abort Count: 445
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2427
+FUW Abort Per Second: 36
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55085
+
+One Test Result
+Run Time: 12.23
+Committed Trasaction Count: 29479
+FUW Abort Count: 494
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2410
+FUW Abort Per Second: 40
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55042
+
+One Test Result
+Run Time: 12.379
+Committed Trasaction Count: 29488
+FUW Abort Count: 495
+PSSI Abort Count: 2
+Committed Trasaction Per Second: 2382
+FUW Abort Per Second: 39
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55163
+
+One Test Result
+Run Time: 12.075
+Committed Trasaction Count: 29532
+FUW Abort Count: 453
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2445
+FUW Abort Per Second: 37
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55074
+
+One Test Result
+Run Time: 12.185
+Committed Trasaction Count: 29539
+FUW Abort Count: 448
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2424
+FUW Abort Per Second: 36
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55007
+
+One Test Result
+Run Time: 12.027
+Committed Trasaction Count: 29491
+FUW Abort Count: 491
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2452
+FUW Abort Per Second: 40
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54940
+
+One Test Result
+Run Time: 12.124
+Committed Trasaction Count: 29461
+FUW Abort Count: 519
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2429
+FUW Abort Per Second: 42
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54901
+
+One Test Result
+Run Time: 12.14
+Committed Trasaction Count: 29424
+FUW Abort Count: 554
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2423
+FUW Abort Per Second: 45
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54877
+
+Final Test Resut
+Committed Trasaction Per Second: 2425
+FUW Abort Per Second: 39
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 1
+Transaction Per Thread 30000
+
+One Test Result
+Run Time: 28.319
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1059
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54886
+
+One Test Result
+Run Time: 29.229
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1026
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55193
+
+One Test Result
+Run Time: 29.181
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1028
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54990
+
+One Test Result
+Run Time: 29.097
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1031
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55530
+
+One Test Result
+Run Time: 29.188
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1027
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55500
+
+One Test Result
+Run Time: 25.025
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1198
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55001
+
+One Test Result
+Run Time: 29.207
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1027
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55292
+
+One Test Result
+Run Time: 24.878
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1205
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55294
+
+One Test Result
+Run Time: 29.31
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1023
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55265
+
+One Test Result
+Run Time: 24.917
+Committed Trasaction Count: 30000
+FUW Abort Count: 0
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 1203
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55140
+
+Final Test Resut
+Committed Trasaction Per Second: 1077
+FUW Abort Per Second: 0
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 10
+Transaction Per Thread 3000
+
+One Test Result
+Run Time: 12.982
+Committed Trasaction Count: 29914
+FUW Abort Count: 74
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2304
+FUW Abort Per Second: 5
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54823
+
+One Test Result
+Run Time: 12.301
+Committed Trasaction Count: 29893
+FUW Abort Count: 89
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2430
+FUW Abort Per Second: 7
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54610
+
+One Test Result
+Run Time: 13.004
+Committed Trasaction Count: 29928
+FUW Abort Count: 57
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2301
+FUW Abort Per Second: 4
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54858
+
+One Test Result
+Run Time: 11.985
+Committed Trasaction Count: 29897
+FUW Abort Count: 89
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2494
+FUW Abort Per Second: 7
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55325
+
+One Test Result
+Run Time: 12.357
+Committed Trasaction Count: 29915
+FUW Abort Count: 72
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2420
+FUW Abort Per Second: 5
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55138
+
+One Test Result
+Run Time: 12.059
+Committed Trasaction Count: 29905
+FUW Abort Count: 81
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2479
+FUW Abort Per Second: 6
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54980
+
+One Test Result
+Run Time: 12.077
+Committed Trasaction Count: 29905
+FUW Abort Count: 86
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2476
+FUW Abort Per Second: 7
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54822
+
+One Test Result
+Run Time: 11.86
+Committed Trasaction Count: 29904
+FUW Abort Count: 87
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2521
+FUW Abort Per Second: 7
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55003
+
+One Test Result
+Run Time: 12.174
+Committed Trasaction Count: 29891
+FUW Abort Count: 89
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2455
+FUW Abort Per Second: 7
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54954
+
+One Test Result
+Run Time: 11.999
+Committed Trasaction Count: 29900
+FUW Abort Count: 80
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2491
+FUW Abort Per Second: 6
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 55006
+
+Final Test Resut
+Committed Trasaction Per Second: 2435
+FUW Abort Per Second: 6
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 30
+Transaction Per Thread 1000
+
+One Test Result
+Run Time: 12.146
+Committed Trasaction Count: 29777
+FUW Abort Count: 209
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2451
+FUW Abort Per Second: 17
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54581
+
+One Test Result
+Run Time: 12.04
+Committed Trasaction Count: 29756
+FUW Abort Count: 222
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2471
+FUW Abort Per Second: 18
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54960
+
+One Test Result
+Run Time: 12.109
+Committed Trasaction Count: 29771
+FUW Abort Count: 212
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2458
+FUW Abort Per Second: 17
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54766
+
+One Test Result
+Run Time: 11.973
+Committed Trasaction Count: 29760
+FUW Abort Count: 219
+PSSI Abort Count: 1
+Committed Trasaction Per Second: 2485
+FUW Abort Per Second: 18
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54801
+
+One Test Result
+Run Time: 12.094
+Committed Trasaction Count: 29773
+FUW Abort Count: 209
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2461
+FUW Abort Per Second: 17
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54736
+
+One Test Result
+Run Time: 12.025
+Committed Trasaction Count: 29786
+FUW Abort Count: 192
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2477
+FUW Abort Per Second: 15
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54788
+
+One Test Result
+Run Time: 11.865
+Committed Trasaction Count: 29753
+FUW Abort Count: 230
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2507
+FUW Abort Per Second: 19
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54921
+
+One Test Result
+Run Time: 12.139
+Committed Trasaction Count: 29771
+FUW Abort Count: 208
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2452
+FUW Abort Per Second: 17
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54864
+
+One Test Result
+Run Time: 12.13
+Committed Trasaction Count: 29757
+FUW Abort Count: 226
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2453
+FUW Abort Per Second: 18
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54697
+
+One Test Result
+Run Time: 12.106
+Committed Trasaction Count: 29789
+FUW Abort Count: 194
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2460
+FUW Abort Per Second: 16
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54652
+
+Final Test Resut
+Committed Trasaction Per Second: 2467
+FUW Abort Per Second: 17
+PSSI Abort Per Second: 0
+
+---------------SI-----------------
+Hotspot Hit Rate 60
+Hotspot Size 400
+Select Size 3
+Update Size 1
+Thread Size 50
+Transaction Per Thread 600
+
+One Test Result
+Run Time: 12.076
+Committed Trasaction Count: 29717
+FUW Abort Count: 266
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2460
+FUW Abort Per Second: 22
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54729
+
+One Test Result
+Run Time: 12.329
+Committed Trasaction Count: 29704
+FUW Abort Count: 276
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2409
+FUW Abort Per Second: 22
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54727
+
+One Test Result
+Run Time: 12.167
+Committed Trasaction Count: 29747
+FUW Abort Count: 232
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2444
+FUW Abort Per Second: 19
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54708
+
+One Test Result
+Run Time: 11.966
+Committed Trasaction Count: 29711
+FUW Abort Count: 273
+PSSI Abort Count: 0
+Committed Trasaction Per Second: 2482
+FUW Abort Per Second: 22
+PSSI Abort Per Second: 0
+PSSI Graph Edge Count: 54874
+

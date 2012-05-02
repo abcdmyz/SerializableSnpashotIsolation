@@ -4,16 +4,16 @@ public class PerformanceParameter
 {
 	public final static int runTimes = 3;
 	
-	public final static int hotspotHitRateCount = 3;
+	public final static int hotspotHitRateCount = 4;
 	public final static int hotspotSizeCount = 3;
 	public final static int selectSizeCount = 3;
 	
-	public final static int threadSizeCount = 4;
+	public final static int threadSizeCount = 5;
 	
-	private final static int[] hotspotHitRateList = {60, 70, 80};
+	private final static int[] hotspotHitRateList = {60, 70, 80, 100};
 	private final static int[] hotspotSizeList = {100, 200, 400};
 	private final static int[] selectSizeList = {1, 3, 5};
-	private final static int[] threadSizeList = {1, 10, 30, 50};
+	private final static int[] threadSizeList = {1, 5, 10, 15, 20};
 	
 	private final static int transactionSize = 30000;
 	

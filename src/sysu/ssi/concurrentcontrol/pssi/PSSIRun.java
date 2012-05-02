@@ -1,4 +1,4 @@
-package sysu.ssi.concurrentcontrol.si;
+package sysu.ssi.concurrentcontrol.pssi;
 
 import java.sql.SQLException;
 import java.util.concurrent.CountDownLatch;
@@ -6,19 +6,19 @@ import java.util.concurrent.CountDownLatch;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.mysql.jdbc.Connection;
-
-import sysu.ssi.concurrentcontrol.twopl.TwoPLExecutor;
-import sysu.ssi.concurrentcontrol.twopl.TwoPLTransactionManager;
+import sysu.ssi.concurrentcontrol.si.SIExecutor;
+import sysu.ssi.concurrentcontrol.si.SIRun;
+import sysu.ssi.concurrentcontrol.si.SITransactionManager;
 import sysu.ssi.database.JDBCConnection;
 import sysu.ssi.database.TransactionOperation;
 import sysu.ssi.output.SelectUpdateRowOutput;
 import sysu.ssi.parameter.TransactionIDParameter;
 import sysu.ssi.random.ExecutorElement;
-import sysu.ssi.test.output.DebugOutput;
 import sysu.ssi.test.parameter.TestParameter;
 
-public class SIRun implements Runnable
+import com.mysql.jdbc.Connection;
+
+public class PSSIRun implements Runnable
 {
 	private CountDownLatch cdl;
 	private TestParameter parameter;
@@ -27,7 +27,7 @@ public class SIRun implements Runnable
 	
 	public static Log logger = LogFactory.getLog(SIRun.class);
 	
-	public SIRun (long transactionIDInitial, TestParameter parameter, CountDownLatch cdl)
+	public PSSIRun (long transactionIDInitial, TestParameter parameter, CountDownLatch cdl)
 	{
 		this.transactionIDInitial = transactionIDInitial;
 		this.parameter = parameter;
@@ -81,29 +81,23 @@ public class SIRun implements Runnable
 		
 		for ( int k=0; k<parameter.getTransactionPerThread(); k++ )
 		{
-			
-			
-			TransactionOperation.startTransaction(connection);
-			SITransactionManager.startTransaction(transactionID);
-		
 			ExecutorElement element = new ExecutorElement(parameter);
 			
 			//SelectUpdateRowOutput.outputSelectUpdateRow(transactionID, element);
+			
+			
 
-			SIExecutor siExecutor = new SIExecutor();
+			PSSIExecutor pssiExecutor = new PSSIExecutor();
 			try
 			{
-				siExecutor.executeSelectUpdate(connection, transactionID, element);
+				pssiExecutor.executeSelectUpdate(connection, transactionID, element);
 			}
 			catch ( InterruptedException e )
 			{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
-			SITransactionManager.commitTransaction(transactionID);
-			TransactionOperation.commitTransaction(connection);
-			
+	
 			transactionID = addTransactionID(transactionID);
 		}
 		
@@ -119,5 +113,4 @@ public class SIRun implements Runnable
 		
 		cdl.countDown();
 	}
-
 }

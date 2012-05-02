@@ -1,33 +1,40 @@
-package sysu.ssi.concurrentcontrol.si;
+package sysu.ssi.concurrentcontrol.pssi;
 
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.omg.Dynamic.Parameter;
 
-import sysu.ssi.concurrentcontrol.twopl.TwoPLLockManager;
-import sysu.ssi.concurrentcontrol.twopl.TwoPLTransactionManager;
+import sysu.ssi.concurrentcontrol.si.SIExecutor;
+import sysu.ssi.concurrentcontrol.si.SILockManager;
+import sysu.ssi.concurrentcontrol.si.SITransaction;
+import sysu.ssi.concurrentcontrol.si.SITransactionManager;
 import sysu.ssi.database.DataOperation;
 import sysu.ssi.database.TransactionOperation;
 import sysu.ssi.random.ExecutorElement;
 import sysu.ssi.test.output.DebugOutput;
+import sysu.ssi.test.output.ManagerListOutput;
 import sysu.ssi.test.parameter.TestParameter;
 
 import com.mysql.jdbc.Connection;
 
-public class SIExecutor
+public class PSSIExecutor
 {
-	
 	private static int committedTransaction;
 	private static int FUWAbort;
+	private static int PSSIAbort;
 	
 	public static Log logger = LogFactory.getLog(SIExecutor.class);
 
 	public void executeSelectUpdate(Connection connection, long transactionID, ExecutorElement element) throws InterruptedException
 	{
 		int fraction;
+		
+		TransactionOperation.startTransaction(connection);
+		SITransactionManager.startTransaction(transactionID);
+		PSSITransactionManager.startTransaction(transactionID);
+		PSSIGraph.startTransaction(transactionID);
 		
 		fraction = executeSelect(connection, element);
 		executeUpdate( connection, transactionID, element, fraction);
@@ -146,31 +153,104 @@ public class SIExecutor
 		if ( returnMessage.equals("commit") )
 		{
 			//DebugOutput.logger.warn(transactionID + " commit ");
-			
+		
 			DataOperation.updataARow(connection, element.getUpdateRow(), fraction);
 			
-			SITransactionManager.commitTransaction(transactionID);
-			TransactionOperation.commitTransaction(connection);
+			ManagerListEditor listEditor = new ManagerListEditor();
+			listEditor.editTransactionManager(transactionID, element);
 			
-			releaseLock( transactionID, element.getUpdateRow() );
-			SITransactionManager.notifyWaitingListAbort(transactionID);
-
-			addCommittedTransactionCount();
+			PSSIDetector pssiDetector = new PSSIDetector();
+			
+			//ManagerListOutput listOutput = new ManagerListOutput();
+			//listOutput.outputRecordList(transactionID);
+		
+			if ( !pssiDetector.Detect(transactionID) )
+			{
+				commitPSSITranaction(transactionID, element);
+				commitSITransaction(connection, transactionID, element);
+			}
+			else
+			{
+				addPSSIAbortCount();
+				
+				abortSITransaciton(connection, transactionID, element);
+				abortPSSITranaction(transactionID, element);
+			}
+			
 		}
 		else
 		{
 			//DebugOutput.logger.warn(transactionID + " abort ");
 			
-			SITransactionManager.abortTransaction(transactionID);
-			TransactionOperation.abortTransaction(connection);
-			
-			releaseLock( transactionID, element.getUpdateRow() );
-			SITransactionManager.notifyWaitingListUpdate(transactionID);
-			
-			
 			addFUWAbortCount();
+			
+			abortSITransaciton(connection, transactionID, element);
+			abortPSSITranaction(transactionID, element);
 		}
 		
+	}
+	
+	public void commitSITransaction( Connection connection, long transactionID, ExecutorElement element )
+	{
+		SITransactionManager.commitTransaction(transactionID);
+		TransactionOperation.commitTransaction(connection);
+		
+		releaseLock( transactionID, element.getUpdateRow() );
+		SITransactionManager.notifyWaitingListAbort(transactionID);
+
+		addCommittedTransactionCount();
+	}
+	
+	public void abortSITransaciton( Connection connection, long transactionID, ExecutorElement element )
+	{
+		SITransactionManager.abortTransaction(transactionID);
+		TransactionOperation.abortTransaction(connection);
+		
+		releaseLock( transactionID, element.getUpdateRow() );
+		SITransactionManager.notifyWaitingListUpdate(transactionID);
+	}
+	
+	public void commitPSSITranaction( long transactionID, ExecutorElement element )
+	{
+		ReentrantReadWriteLock.WriteLock writeLock;
+		
+		writeLock = PSSITransactionManager.getTransactionWriteLock(transactionID);
+		if ( !writeLock.tryLock() )
+		{
+			writeLock.lock();
+		}
+		
+		PSSITransactionManager.commitTransaction(transactionID);
+		
+		ManagerListEditor listEditor = new ManagerListEditor();
+		listEditor.editLockManager(transactionID, element);
+		
+		writeLock.unlock();
+	}
+	
+	public void abortPSSITranaction( long transactionID, ExecutorElement element )
+	{
+		ReentrantReadWriteLock.WriteLock writeLock;
+		
+		writeLock = PSSITransactionManager.getTransactionWriteLock(transactionID);
+		if ( !writeLock.tryLock() )
+		{
+			writeLock.lock();
+		}
+		
+		PSSITransactionManager.abortTransaction(transactionID);
+	
+		writeLock.unlock();
+	}
+	
+	public synchronized void addPSSIAbortCount()
+	{
+		PSSIAbort++;
+	}
+	
+	public static int getPSSIAbortCount()
+	{
+		return PSSIAbort;
 	}
 	
 	public synchronized void addFUWAbortCount()
@@ -197,5 +277,6 @@ public class SIExecutor
 	{
 		 FUWAbort = 0;
 		 committedTransaction = 0;
+		 PSSIAbort = 0;
 	}
 }

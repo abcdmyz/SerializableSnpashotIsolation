@@ -1,5 +1,9 @@
 package sysu.ssi.test.run.twopl;
 
+import sysu.ssi.concurrentcontrol.pssi.PSSIExecutor;
+import sysu.ssi.concurrentcontrol.pssi.PSSIGraph;
+import sysu.ssi.concurrentcontrol.pssi.PSSILockManager;
+import sysu.ssi.concurrentcontrol.pssi.PSSITransactionManager;
 import sysu.ssi.concurrentcontrol.si.SIExecutor;
 import sysu.ssi.concurrentcontrol.si.SILockManager;
 import sysu.ssi.concurrentcontrol.si.SITransactionManager;
@@ -21,5 +25,16 @@ public class TestRunInitial
 		SIExecutor.initial();
 		SITransactionManager.initial();
 		SILockManager.initial();
+	}
+	
+	public void PSSIinitial()
+	{
+		SITransactionManager.initial();
+		SILockManager.initial();
+		
+		PSSIExecutor.initial();
+		PSSITransactionManager.initial();
+		PSSILockManager.initial();
+		PSSIGraph.initial();
 	}
 }

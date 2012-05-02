@@ -1,27 +1,37 @@
-package sysu.ssi.concurrentcontrol.twopl;
+package sysu.ssi.concurrentcontrol.pssi;
 
 import java.util.LinkedList;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-public class TwoPLTransaction
+import sysu.ssi.test.output.DebugOutput;
+import sysu.ssi.test.output.ManagerListOutput;
+
+public class PSSITransaction
 {
 	private long transactionID;
-	private String transactionState;
 	private long startTime, endTime;
+	private String transactionState;
 	private ReentrantReadWriteLock rwLock;
 	
-	public TwoPLTransaction(  )
+	private LinkedList<Integer> selectRecordList = new LinkedList<Integer>();
+	private LinkedList<Integer> updateRecordList = new LinkedList<Integer>();
+	
+	public PSSITransaction(   )
 	{
-		
+	
 	}
 
-	public TwoPLTransaction( long transactionID, String transactionState )
+	public PSSITransaction( long transactionID, String transactionState )
 	{
 		this.transactionID = transactionID;
 		this.transactionState = transactionState;
 		
 		startTime = System.currentTimeMillis();
 		rwLock = new ReentrantReadWriteLock();
+		
+		selectRecordList.clear();
+		updateRecordList.clear();
 	}
 	
 	public ReentrantReadWriteLock.ReadLock getTransactionReadLock()
@@ -69,5 +79,25 @@ public class TwoPLTransaction
 	public long getEndTime()
 	{
 		return endTime;
+	}
+	
+	public void addRecordtoSelectRecordList( int recordKey )
+	{
+		selectRecordList.add(recordKey);
+	}
+	
+	public void addRecordtoUpdateRecordList( int recordKey )
+	{
+		updateRecordList.add(recordKey);
+	}
+	
+	public LinkedList<Integer> getSelectRecordList()
+	{
+		return selectRecordList;
+	}
+	
+	public LinkedList<Integer> getUpdateRecordList()
+	{
+		return updateRecordList;
 	}
 }

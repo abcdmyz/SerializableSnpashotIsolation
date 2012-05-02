@@ -177,4 +177,34 @@ public class SITestRun implements TestRun
 		oneTestResult = SIRequestRun(parameter);	
 		siTestOutput.outputOneResult(oneTestResult);
 	}
+	
+	public void SingleGroupMultiThreadSizeTestRun() throws InterruptedException
+	{
+		ParameterGenerator parameterGenerator = new ParameterGenerator();
+		TestParameter parameter = new TestParameter();
+		
+		OneTestResult oneTestResult = new OneTestResult();
+		SITestOutput siTestOutput = new SITestOutput();
+		ParameterOutput parameterOutput = new ParameterOutput();
+		
+		for ( int threadsize=0; threadsize<PerformanceParameter.threadSizeCount; threadsize++ )
+		{
+			GroupTestResult groupTestResult = new GroupTestResult();
+			parameter = parameterGenerator.generateAlterThreadSizeParameter(threadsize);
+			
+			parameterOutput.outputSI();
+			parameterOutput.output(parameter);
+		
+			for ( int runtimes=0; runtimes<PerformanceParameter.runTimes; runtimes++ )
+			{
+			
+				oneTestResult = SIRequestRun(parameter);	
+				groupTestResult.sumupTestResult(oneTestResult);
+				siTestOutput.outputOneResult(oneTestResult);
+			}
+			
+			siTestOutput.outputGroupResult(groupTestResult);
+		}
+		
+	}
 }
